@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight: Исследуйте Hallownest</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+    body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hollow Knight</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="tooltip">Главная
+                        <span class="tooltiptext">Вернуться на главную страницу</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="world.html" class="tooltip">Мир
+                        <span class="tooltiptext">Узнайте больше о королевстве Hallownest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="characters.html" class="tooltip">Персонажи
+                        <span class="tooltiptext">Познакомьтесь с героями и злодеями игры</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="gameplay.html" class="tooltip">Геймплей
+                        <span class="tooltiptext">Подробности о боевой системе и исследовании мира</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lore.html" class="tooltip">Лор
+                        <span class="tooltiptext">Раскройте секреты истории Hallownest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="media.html" class="tooltip">Медиа
+                        <span class="tooltiptext">Скриншоты, фан-арт и музыка из Hollow Knight</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Добро пожаловать в Hallownest</h2>
+            <img src="https://i.pinimg.com/originals/27/c2/5e/27c25ef3c9ed146709cc3db177567465.jpg" width="500">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Мой фан-сайт Hollow Knight</p>
+    </footer>
+</body>
+
+</html>
